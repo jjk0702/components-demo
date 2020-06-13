@@ -1,4 +1,4 @@
-package com.jjk.testmybatisplus.config;
+package com.jjk.testmybatisplus.myconfig;
 
 import com.baomidou.mybatisplus.core.injector.ISqlInjector;
 import com.baomidou.mybatisplus.extension.injector.LogicSqlInjector;

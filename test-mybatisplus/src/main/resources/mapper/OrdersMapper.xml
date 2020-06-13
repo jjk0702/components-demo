@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jjk.testmybatisplus.mapper.OrdersMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jjk.testmybatisplus.domain.entity.Orders">
+        <id column="No" property="No" />
+        <result column="goodName" property="goodName" />
+        <result column="goodNo" property="goodNo" />
+        <result column="cost" property="cost" />
+        <result column="ownerNo" property="ownerNo" />
+        <result column="IsExipred" property="IsExipred" />
+        <result column="ShopNo" property="ShopNo" />
+    </resultMap>
+
+</mapper>
